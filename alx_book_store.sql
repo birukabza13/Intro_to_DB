@@ -1,12 +1,12 @@
 CREATE DATABASE IF NOT EXISTS alx_book_store
 CREATE TABLE
-    AUTHORS (
+    Authors (
         author_id INT AUTO_INCREMENT PRIMARY KEY,
         author_name VARCHAR(215)
     );
 
 CREATE TABLE
-    BOOKS (
+    Books (
         book_id INT AUTO_INCREMENT PRIMARY KEY,
         title VARCHAR(130),
         author_id INT,
